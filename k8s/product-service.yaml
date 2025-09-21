@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: product-service-container
-        image: gokul.azurecr.io/product_service:latest
+        image: acrsit43607.azurecr.io/product_service:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
